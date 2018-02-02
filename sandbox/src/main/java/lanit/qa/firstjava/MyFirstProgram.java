@@ -8,11 +8,11 @@ public class MyFirstProgram {
         func("Lena");
 
         double m = 6;
-        System.out.println("Площадь квадрата со стороной " + m + "=" + area(m));
+        System.out.println("Площадь квадрата со стороной " + m + " = " + area(m));
 
         double a = 4;
         double b = 6;
-        System.out.println("Площадь прямоугольника со сторонами " + a + " и " + b + "=" + area(a, b));
+        System.out.println("Площадь прямоугольника со сторонами " + a + " и " + b + " = " + area(a, b));
     }
 
     public static void func(String val) {
