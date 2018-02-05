@@ -8,21 +8,13 @@ public class MyFirstProgram {
         func("Lena");
 
         Square s = new Square(6);
-        System.out.println("Площадь квадрата со стороной " + s.m + " = " + area(s));
+        System.out.println("Площадь квадрата со стороной " + s.m + " = " + s.area());
 
         Rectangle n = new Rectangle(4, 6);
-        System.out.println("Площадь прямоугольника со сторонами " + n.a + " и " + n.b + " = " + area(n));
+        System.out.println("Площадь прямоугольника со сторонами " + n.a + " и " + n.b + " = " + n.area());
     }
 
     public static void func(String val) {
         System.out.println("Hello, " + val + "!");
-    }
-
-    public static double area(Square s){
-        return s.m * s.m;
-    }
-
-    public static double area(Rectangle n) {
-    return n.a * n.b;
     }
     }
