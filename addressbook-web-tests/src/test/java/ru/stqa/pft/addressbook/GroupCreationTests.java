@@ -38,13 +38,13 @@ public class GroupCreationTests {
         wd.findElement(By.xpath("//div[@id='content']/form/input[4]")).click();
         wd.findElement(By.name("group_name")).click();
         wd.findElement(By.name("group_name")).clear();
-        wd.findElement(By.name("group_name")).sendKeys("testt1");
+        wd.findElement(By.name("group_name")).sendKeys("test2");
         wd.findElement(By.name("group_header")).click();
         wd.findElement(By.name("group_header")).clear();
-        wd.findElement(By.name("group_header")).sendKeys("testt2");
+        wd.findElement(By.name("group_header")).sendKeys("test3");
         wd.findElement(By.name("group_footer")).click();
         wd.findElement(By.name("group_footer")).clear();
-        wd.findElement(By.name("group_footer")).sendKeys("test3");
+        wd.findElement(By.name("group_footer")).sendKeys("test4");
         wd.findElement(By.name("submit")).click();
         wd.findElement(By.linkText("group page")).click();
     }
